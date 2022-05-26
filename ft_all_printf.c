@@ -6,7 +6,7 @@
 /*   By: pgaric <pgaric@student.42wolfsburg.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/23 07:47:31 by pgaric            #+#    #+#             */
-/*   Updated: 2022/05/26 12:19:13 by pgaric           ###   ########.fr       */
+/*   Updated: 2022/05/26 18:44:04 by pgaric           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -167,7 +167,7 @@ int ft_printpointer(unsigned long n)
 {
 	if (n == 0)
 	{
-		write(1, "0x0", 3); //edge case for Mac Operating system, as it will be test on that one, this is the output..Lunix output is "0" and return (1)
+		write(1, "0x0", 3); //edge case for Mac Operating system 0x0, as it will be test on that one, this is the output..Lunix output is "(nill)" and return (5), test on your machine with main
 		return (3);
 	}
 	else
