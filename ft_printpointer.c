@@ -6,7 +6,7 @@
 /*   By: pgaric <pgaric@student.42wolfsburg.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/25 22:24:31 by pgaric            #+#    #+#             */
-/*   Updated: 2022/05/26 10:55:52 by pgaric           ###   ########.fr       */
+/*   Updated: 2022/05/26 12:03:40 by pgaric           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,8 +42,8 @@ int	ft_printpointer(unsigned long n)
 {
 	if (n == 0)
 	{
-		ft_putchar_fd('0', 1);
-		return (1);
+		write(1, "0x0", 3);
+		return (3);
 	}
 	else
 	{
